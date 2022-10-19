@@ -1,0 +1,72 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 0;
+  background-color: #d0bed4;
+}
+
+.winner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: fit-content;
+  height: fit-content;
+  transition: all ease-in 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -70%);
+  background-color: #e67397;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.winner-text {
+  padding: 5px 10px 2px;
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: #000;
+  position: relative;
+  text-align: center;
+  line-height: 1.3;
+}
+.winner-title{
+	font-size: 48px;
+	font-weight: 500;
+}
+
+.shrink {
+  transform: scale(0.1);
+  opacity: 0;
+}
+button {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+button:hover {
+  background-color: #353964;
+}

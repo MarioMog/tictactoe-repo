@@ -1,0 +1,48 @@
+:root {
+	--board-background: #8288C3;
+	--border-color: #242961;
+	--border-thickness: 2px;
+}
+
+.board{
+	width: 90%;
+	height: 100%;
+	max-height: 600px;
+	max-width: 600px;
+	border-radius: 10px;
+	background-color: var(--board-background);
+	border: var(--border-color) solid var(--border-thickness);
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.input{
+	height: 33.33%;
+	width: 33.33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #0B0B11;	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.border-right{
+	border-right: var(--border-thickness)
+	solid var(--border-color);
+}
+
+.border-bottom{
+	border-bottom: var(--border-thickness)
+	solid var(--border-color);
+}
+
+.X{
+	background-image: url('../../assets/X.svg');
+}
+.O{
+	background-image: url('../../assets/O.svg');
+}
